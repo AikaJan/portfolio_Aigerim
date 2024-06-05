@@ -23,7 +23,7 @@ const SelfProject = () => {
               <p> Skills: {projectId.skills}</p>
             </div>
 
-            {projectId.gitHubLink && <BtnGithub link="https://github.com" />}
+            {projectId.gitHubLink && <BtnGithub link={projectId.gitHubLink} />}
           </div>
         </div>
       </main>
