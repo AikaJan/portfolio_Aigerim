@@ -13,8 +13,8 @@ import Repos from "./components/repos/Repos.js";
 
 function App() {
   const username = "AikaJan";
-  const token =
-    "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";
+  const token = "";
+  // "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";
 
   return (
     <div className="App">
