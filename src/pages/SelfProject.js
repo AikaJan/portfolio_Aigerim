@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import BtnGithub from "../components/btnGithub/BtnGithub";
 import { projects } from "../helpers/projectList";
+import Repos from "../components/repos/Repos";
 
 const SelfProject = () => {
   const { id } = useParams();

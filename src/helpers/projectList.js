@@ -10,6 +10,9 @@ import project03B from "./../img/projects/loft.jpg";
 import project04 from "./../img/projects/coffee.jpg";
 import project04B from "./../img/projects/coffee.jpg";
 
+import repo from "./../img/icons/repo.png";
+import logos from "./../img/icons/logomark-orange@2x.png";
+
 const projects = [
   {
     title: "Fashion | Online shopping",
