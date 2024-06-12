@@ -40,16 +40,6 @@ const Navbar = () => {
               </li>
               <li className="nav-list__item">
                 <NavLink
-                  to="/repos"
-                  className={({ isActive }) =>
-                    isActive ? activeLink : normalLink
-                  }
-                >
-                  All Repos
-                </NavLink>
-              </li>
-              <li className="nav-list__item">
-                <NavLink
                   to="/contacts"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink
