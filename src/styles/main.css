@@ -4,10 +4,10 @@
 :root {
 	/* Colors */
 	--blackpure: #000;
-	--black: #171718;
+	--black: #403a3f;
 	--black-border: #26292d;
-	--white: #fff;
-	--purple: #5c62ec;
+	--white: #faf4f9;
+	--purple: #DB7093;
 
 	/* Nav */
 	--nav-bg: var(--black);

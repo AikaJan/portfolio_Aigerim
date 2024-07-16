@@ -39,14 +39,14 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-list__item">
-                <NavLink
+                {/* <NavLink
                   to="/repos"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink
                   }
                 >
                   All Repos
-                </NavLink>
+                </NavLink> */}
               </li>
               <li className="nav-list__item">
                 <NavLink

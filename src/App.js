@@ -13,8 +13,8 @@ import Repos from "./components/repos/Repos.js";
 
 function App() {
   const username = "AikaJan";
-  const token = "";
-  // "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";
+  const token =
+    "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";
 
   return (
     <div className="App">
@@ -26,10 +26,10 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/self-project/:id" element={<SelfProject />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route
+          {/* <Route
             path="/repos"
             element={<Repos username={username} token={token} />}
-          />
+          /> */}
         </Routes>
         <Footer />
       </Router>

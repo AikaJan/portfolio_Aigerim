@@ -10,8 +10,17 @@ import project03B from "./../img/projects/loft.jpg";
 import project04 from "./../img/projects/coffee.jpg";
 import project04B from "./../img/projects/coffee.jpg";
 
-import repo from "./../img/icons/repo.png";
-import logos from "./../img/icons/logomark-orange@2x.png";
+import project05 from "./../img/projects/project-05.jpg";
+import project05B from "./../img/projects/netflix-01.png";
+
+import project06 from "./../img/projects/ai-img-gen.png";
+import project06B from "./../img/projects/ai-img-gen.png";
+
+import project07 from "./../img/projects/project-07.jpg";
+import project07B from "./../img/projects/project-07.jpg";
+
+// import repo from "./../img/icons/repo.png";
+// import logos from "./../img/icons/logomark-orange@2x.png";
 
 const projects = [
   {
@@ -29,12 +38,13 @@ const projects = [
     img: project03,
     imgBig: project03B,
   },
+
   {
-    title: "Self-taught photographer",
-    skills: "React",
+    title: "AI Image Generator | OpenAi API",
+    skills: "HTML, CSS, JS, React JS and OpenAI GPT",
+    img: project06,
+    imgBig: project06B,
     gitHubLink: "https://github.com",
-    img: project02,
-    imgBig: project02B,
   },
   {
     title: "Coffee Shop",
@@ -42,6 +52,21 @@ const projects = [
     // gitHubLink: "https://github.com",
     img: project04,
     imgBig: project04B,
+  },
+
+  {
+    title: "Netflix clone | website includes a movie database",
+    skills: "React JS, Node.js, API, MongoDB, and Express JS",
+    img: project05,
+    imgBig: project05B,
+    gitHubLink: "https://github.com",
+  },
+  {
+    title: "AI Recipe Generator | website includes a recipe database",
+    skills: "CSS, React JS, Node.js, and OpenAI GPT",
+    img: project07,
+    imgBig: project07B,
+    gitHubLink: "https://github.com",
   },
 ];
 

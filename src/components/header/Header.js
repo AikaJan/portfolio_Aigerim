@@ -1,6 +1,6 @@
 import React from "react";
 import "./headerStyle.css";
-import resume from "./Resume_A.D..pdf";
+import resume from "./Resume_Aigerim.D.2024.pdf";
 
 const Header = () => {
   return (
