@@ -16,19 +16,23 @@ import project05B from "./../img/projects/netflix-01.png";
 import project06 from "./../img/projects/ai-img-gen.png";
 import project06B from "./../img/projects/ai-img-gen.png";
 
-import project07 from "./../img/projects/project-07.jpg";
-import project07B from "./../img/projects/project-07.jpg";
+import project07 from "./../img/projects/project07.png";
+import project07B from "./../img/projects/project07B.png";
+
+import project08 from "./../img/projects/project08.png";
+import project08B from "./../img/projects/project08B.png";
 
 // import repo from "./../img/icons/repo.png";
 // import logos from "./../img/icons/logomark-orange@2x.png";
 
 const projects = [
   {
-    title: "Fashion | Online shopping",
-    skills: "HTML, CSS, JS, React JS",
-    img: project01,
-    imgBig: project01B,
-    gitHubLink: "https://github.com/AikaJan/fashion-shop",
+    title: "AI Recipe Generator | website includes a recipe database",
+    skills:
+      " HTML5, CSS3, JS, React, React Bootstrap, JSON, Node.js, Express.js, Bcrypt, PostgreSQL, Axios, API ",
+    img: project07,
+    imgBig: project07B,
+    gitHubLink: "https://github.com/AikaJan/recipe-generator",
   },
   {
     title: "Loft House",
@@ -46,12 +50,13 @@ const projects = [
     imgBig: project06B,
     gitHubLink: "https://github.com",
   },
+
   {
-    title: "Coffee Shop",
-    skills: "HTML, CSS, React, API",
-    // gitHubLink: "https://github.com",
-    img: project04,
-    imgBig: project04B,
+    title: "Vacation | website includes booking flights and hotels",
+    skills: "CSS, React JS, Node.js, and OpenAI GPT",
+    img: project08,
+    imgBig: project08B,
+    gitHubLink: "https://github.com/AikaJan/vacation-trip",
   },
 
   {
@@ -61,12 +66,21 @@ const projects = [
     imgBig: project05B,
     gitHubLink: "https://github.com",
   },
+
   {
-    title: "AI Recipe Generator | website includes a recipe database",
-    skills: "CSS, React JS, Node.js, and OpenAI GPT",
-    img: project07,
-    imgBig: project07B,
-    gitHubLink: "https://github.com",
+    title: "Fashion | Online shopping",
+    skills: "HTML, CSS, JS, React JS",
+    img: project01,
+    imgBig: project01B,
+    gitHubLink: "https://github.com/AikaJan/fashion-shop",
+  },
+
+  {
+    title: "Coffee Shop",
+    skills: "HTML, CSS, React, API",
+    gitHubLink: "https://github.com/AikaJan/Cafe-app",
+    img: project04,
+    imgBig: project04B,
   },
 ];
 
