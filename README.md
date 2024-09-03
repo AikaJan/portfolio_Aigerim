@@ -1,5 +1,5 @@
 
-link https://vercel.com/aikajans-projects/my-portfolio
+link https://my-portfolio-nine-dusky-30.vercel.app/
 
 # Getting Started with Create React App
 
